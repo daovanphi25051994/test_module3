@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="test_module3:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/test_module3_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="test_module3/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="test_module3" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/web_setup/mysql-connector-java-8.0.20.jar" />
+          <element id="file-copy" path="$USER_HOME$/web_setup/jstl-1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
